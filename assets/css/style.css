@@ -9,20 +9,20 @@ h4 {
 .bg-light {
   background-color: transparent !important; }
 
-.navbar-collapse {
+#navbarSuperior {
   justify-content: flex-end;
   padding: 0;
   margin: 0; }
-  .navbar-collapse .nav-link {
+  #navbarSuperior .nav-link {
     display: block;
     padding: 0rem 1rem; }
-  .navbar-collapse .fa-phone {
+  #navbarSuperior .fa-phone {
     color: #f3504b;
     padding: 10px; }
-  .navbar-collapse .fa-search {
+  #navbarSuperior .fa-search {
     background-color: #f4f6f7;
     padding: 10px; }
-  .navbar-collapse .cerrar {
+  #navbarSuperior .cerrar {
     background-color: #f3504b;
     color: #fff;
     padding: 12px 10px; }
@@ -44,5 +44,8 @@ nav .datos-name {
   font-size: 16px; }
 nav .datos-acceso {
   color: #7a7a7a; }
+
+#navbarInferior {
+  justify-content: space-around; }
 
 /*# sourceMappingURL=style.css.map */
