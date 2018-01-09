@@ -14,6 +14,11 @@ a {
     background-color: transparent !important;
 }
 
+.btn-secondary {
+    color: #BFBFBF;
+    background-color: transparent;
+}
+
 #navbarSuperior {
     justify-content: flex-end;
     padding: 0;
@@ -121,10 +126,6 @@ nav {
             color: #BFBFBF;
             padding-bottom: 0;
         }
-        .btn-secondary {
-            color: #BFBFBF;
-            background-color: transparent;
-        }
         .cuenta {
             text-align: center;
             padding-top: 5%;
@@ -175,6 +176,78 @@ nav {
                 color: $azul;
                 text-decoration: none;
             }
+        }
+        .barra {
+            background-color: $azul-barra;
+            color: #fff;
+            padding: 1%;
+        }
+        .barra-cuenta1 {
+            padding: 2%;
+        }
+        .barra-cuenta2 {
+            background-color: $gris-barra;
+            padding: 2%;
+        }
+        .monto-rojo {
+            color: $rojo;
+        }
+        .monto-verde {
+            color: $verde;
+        }
+    }
+}
+
+.fondo-trans {
+    background-color: #fff;
+    padding: 2%;
+    .text-trans {
+        color: $azul;
+    }
+    .origen-linea {
+        padding-top: 2%;
+    }
+    .saldo {
+        background-color: #ececec;
+        padding: 4%;
+        margin: 0;
+        .saldo-color {
+            color: $verde-oscuro;
+            font-size: 24px;
+        }
+    }
+    .destinatario-linea {
+        padding-top: 2%;
+        .agregar {
+            color: $azul;
+        }
+    }
+    .monto-linea {
+        padding-top: 3%;
+        .form-check {
+            padding-left: 23%;
+        }
+        .espacio-texto {
+            padding-left: 18%;
+        }
+        .contador {
+            font-size: 12px;
+        }
+    }
+    .btns-linea {
+        margin-bottom: 2%;
+        .btn-trans1 {
+            background-color: $verde-oscuro;
+            color: #fff;
+            padding: 2%;
+            text-decoration: none;
+            padding: 10% 40%;
+        }
+        .btn-trans {
+            color: $verde-oscuro;
+            padding: 2%;
+            text-decoration: none;
+            padding: 10% 40%;
         }
     }
 }

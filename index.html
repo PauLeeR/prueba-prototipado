@@ -63,7 +63,7 @@
     <nav class="nav nav-pills nav-justified" id="navbarInferior">
         <a class="nav-item nav-link" href="#">Mi Banco</a>
         <a class="nav-item nav-link" href="#">Pago y Servicios</a>
-        <a class="nav-item nav-link" href="#">Transferencias</a>
+        <a class="nav-item nav-link" href="transferencias.html">Transferencias</a>
         <a class="nav-item nav-link" href="#">Tarjetas de Crédito</a>
         <a class="nav-item nav-link" href="#">Créditos</a>
         <a class="nav-item nav-link" href="#">Inversiones</a>
@@ -110,6 +110,7 @@
                     </li>
                 </ul>
             </div>
+            <!-- Fin navegación -->
             <div class="col-md-9 derecha">
                 <div class="container-fluid">
                     <h4>Saldo y últimos movimientos</h4>
@@ -123,9 +124,9 @@
                                     Cuenta corriente Nº27149528
                                 </button>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Regular link</a>
-                                    <a class="dropdown-item disabled" href="#">Disabled link</a>
-                                    <a class="dropdown-item" href="#">Another link</a>
+                                    <a class="dropdown-item" href="#">Cuenta corriente Nº27149528</a>
+                                    <a class="dropdown-item" href="#">Cuenta de Ahorro Nº12345678</a>
+                                    <a class="dropdown-item" href="#">Débito Nº12345678</a>
                                 </div>
                             </div>
                         </div>
@@ -143,7 +144,7 @@
                         </div>
                     </div>
                     <div class="row accciones-cuenta">
-                        <div class="col"><i class="fa fa-exchange" aria-hidden="true"></i> Transferir
+                        <div class="col"><a href="transferencias.html"><i class="fa fa-exchange" aria-hidden="true"></i> Transferir</a>
                         </div>
                         <div class="col"><i class="fa fa-file-o" aria-hidden="true"></i> Pagar cuenta</div>
                         <div class="col"><i class="fa fa-usd" aria-hidden="true"></i> Solicitar aumento</div>
@@ -177,35 +178,35 @@
                                 Monto <i class="fa fa-angle-down pull-right" aria-hidden="true"></i>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row barra-cuenta1">
                             <div class="col">22-06-2017</div>
                             <div class="col-4">Compra Tarjeta Débito</div>
                             <div class="col">0000000000123</div>
-                            <div class="col"><span>-$3.990</span></div>
+                            <div class="col"><span class="monto-rojo">-$3.990</span></div>
                         </div>
-                        <div class="row">
+                        <div class="row barra-cuenta2">
                             <div class="col">22-06-2017</div>
                             <div class="col-4">Compra Tarjeta Débito</div>
                             <div class="col">0000000000123</div>
-                            <div class="col"><span>-$3.990</span></div>
+                            <div class="col"><span class="monto-rojo">-$9.990</span></div>
                         </div>
-                        <div class="row">
+                        <div class="row barra-cuenta1">
                             <div class="col">22-06-2017</div>
-                            <div class="col-4">Compra Tarjeta Débito</div>
+                            <div class="col-4">Pago Recibido</div>
                             <div class="col">0000000000123</div>
-                            <div class="col"><span>-$3.990</span></div>
+                            <div class="col"><span class="monto-verde">-$6.990</span></div>
                         </div>
-                        <div class="row">
-                            <div class="col">22-06-2017</div>
+                        <div class="row barra-cuenta2">
+                            <div class="col">18-06-2017</div>
                             <div class="col-4">Compra Tarjeta Débito</div>
                             <div class="col">0000000000123</div>
-                            <div class="col"><span>-$3.990</span></div>
+                            <div class="col"><span class="monto-rojo">-$3.990</span></div>
                         </div>
-                        <div class="row">
-                            <div class="col">22-06-2017</div>
-                            <div class="col-4">Compra Tarjeta Débito</div>
+                        <div class="row barra-cuenta1">
+                            <div class="col">12-06-2017</div>
+                            <div class="col-4">Pago Recibido</div>
                             <div class="col">0000000000123</div>
-                            <div class="col"><span>-$3.990</span></div>
+                            <div class="col"><span class="monto-verde">-$9.990</span></div>
                         </div>
                     </div>
                 </div>

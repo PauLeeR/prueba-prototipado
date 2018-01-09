@@ -13,6 +13,10 @@ a {
 .bg-light {
   background-color: transparent !important; }
 
+.btn-secondary {
+  color: #BFBFBF;
+  background-color: transparent; }
+
 #navbarSuperior {
   justify-content: flex-end;
   padding: 0;
@@ -88,9 +92,6 @@ nav .datos-name {
     .derecha .first .fecha {
       color: #BFBFBF;
       padding-bottom: 0; }
-    .derecha .first .btn-secondary {
-      color: #BFBFBF;
-      background-color: transparent; }
     .derecha .first .cuenta {
       text-align: center;
       padding-top: 5%;
@@ -128,5 +129,58 @@ nav .datos-name {
       .derecha .movimientos .parrafo a {
         color: #4698d8;
         text-decoration: none; }
+    .derecha .movimientos .barra {
+      background-color: #007ace;
+      color: #fff;
+      padding: 1%; }
+    .derecha .movimientos .barra-cuenta1 {
+      padding: 2%; }
+    .derecha .movimientos .barra-cuenta2 {
+      background-color: #f5f5f5;
+      padding: 2%; }
+    .derecha .movimientos .monto-rojo {
+      color: #f3504b; }
+    .derecha .movimientos .monto-verde {
+      color: #92d397; }
+
+.fondo-trans {
+  background-color: #fff;
+  padding: 2%; }
+  .fondo-trans .text-trans {
+    color: #4698d8; }
+  .fondo-trans .origen-linea {
+    padding-top: 2%; }
+  .fondo-trans .saldo {
+    background-color: #ececec;
+    padding: 4%;
+    margin: 0; }
+    .fondo-trans .saldo .saldo-color {
+      color: #2aa82c;
+      font-size: 24px; }
+  .fondo-trans .destinatario-linea {
+    padding-top: 2%; }
+    .fondo-trans .destinatario-linea .agregar {
+      color: #4698d8; }
+  .fondo-trans .monto-linea {
+    padding-top: 3%; }
+    .fondo-trans .monto-linea .form-check {
+      padding-left: 23%; }
+    .fondo-trans .monto-linea .espacio-texto {
+      padding-left: 18%; }
+    .fondo-trans .monto-linea .contador {
+      font-size: 12px; }
+  .fondo-trans .btns-linea {
+    margin-bottom: 2%; }
+    .fondo-trans .btns-linea .btn-trans1 {
+      background-color: #2aa82c;
+      color: #fff;
+      padding: 2%;
+      text-decoration: none;
+      padding: 10% 40%; }
+    .fondo-trans .btns-linea .btn-trans {
+      color: #2aa82c;
+      padding: 2%;
+      text-decoration: none;
+      padding: 10% 40%; }
 
 /*# sourceMappingURL=style.css.map */

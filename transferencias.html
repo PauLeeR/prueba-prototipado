@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>web bci</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://use.fontawesome.com/b98428e78e.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Navegador -->
+    <nav class="navbar-expand-lg navbar-light bg-light justify-content-between">
+        <div class="collapse navbar-collapse" id="navbarSuperior">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-phone" aria-hidden="true"></i>
+ 600 824 24 24</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i>
+</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="cerrar">Cerrar sesión</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="assets/img/bci.png" alt="logo bci personas" class="logo-bci"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="assets/img/usuario.png" alt="imagen usuario banco" class="img-user">
+                            </div>
+                            <div class="col-md-6 datos-user">
+                                <span>Bienvenido:</span>
+                                <p class="datos-name">Pablo Monares</p>
+                                <span class="datos-acceso">Últimpo acceso 9-06-17 a las 13:04</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Canales de Atención</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-user" aria-hidden="true"></i>
+ Servicio al Cliente</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="nav nav-pills nav-justified" id="navbarInferior">
+        <a class="nav-item nav-link" href="index.html">Mi Banco</a>
+        <a class="nav-item nav-link" href="#">Pago y Servicios</a>
+        <a class="nav-item nav-link" href="transferencias.html">Transferencias</a>
+        <a class="nav-item nav-link" href="#">Tarjetas de Crédito</a>
+        <a class="nav-item nav-link" href="#">Créditos</a>
+        <a class="nav-item nav-link" href="#">Inversiones</a>
+        <a class="nav-item nav-link" href="#">Seguros</a>
+    </nav>
+    <!-- fin navegador -->
+    <section>
+        <div class="row">
+            <div class="col-md-3">
+                <ul class="nav flex-column nav-vertical">
+                    <li class="nav-item vertical">
+                        <a class="nav-link" href="#">Transferencias <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i>
+</a>
+                    </li>
+                    <li class="nav-item vertical">
+                        <a class="nav-link" href="#">Regalo Virtual <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i>
+</a>
+                    </li>
+                    <li class="nav-item vertical">
+                        <a class="nav-link" href="#">Cartola transferencias <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i>
+</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Fin navegación vertical -->
+            <div class="col-md-9 derecha">
+                <div class="container-fluid">
+                    <h4>Transferencias</h4>
+                    <div class="fondo-trans">
+                        <div class="row origen-linea">
+                            <div class="col-md-6">
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <label class="mr-md-2 text-trans" for="inlineFormCustomSelect">Origen</label>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Cuenta corriente Nº27149528
+                                            </button>
+                                            <div class="dropdown-menu pull-right">
+                                                <a class="dropdown-item" href="#">Cuenta corriente Nº27149528</a>
+                                                <a class="dropdown-item" href="#">Cuenta de Ahorro Nº12345678</a>
+                                                <a class="dropdown-item" href="#">Débito Nº12345678</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="saldo">Saldo Disponible <span class="saldo-color">$198.300</span></p>
+                            </div>
+                        </div>
+                        <div class="row destinatario-linea">
+                            <div class="col-md-6">
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <label class="mr-md-2 text-trans" for="inlineFormCustomSelect">Destinatario</label>
+                                        <div class="dropdown pull-right">
+                                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Busca por nombre o Nº de cuenta
+                                            </button>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Andrea Banco Estado Nº 00-000-000-00</a>
+                                                <a class="dropdown-item" href="#">Andrea Banco Estado Nº 00-000-000-00</a>
+                                                <a class="dropdown-item" href="#">Andrea Banco Estado Nº 00-000-000-00</a>
+                                                <a class="dropdown-item" href="#">Andrea Banco Estado Nº 00-000-000-00</a>
+                                                <a class="dropdown-item" href="#">Andrea Banco Estado Nº 00-000-000-00</a>
+                                                <a class="dropdown-item" href="#">Andrea Banco Estado Nº 00-000-000-00</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="#" class="agregar">+ Agregar Destinatario</a>
+                            </div>
+                        </div>
+                        <div class="row monto-linea">
+                            <div class="col-md-6">
+                                <form>
+                                    <div class="form-group row">
+                                        <label for="colFormLabel" class="col-sm-2 col-form-label text-trans">Monto</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="colFormLabel" placeholder="Ingresa monto a transferir">
+                                        </div>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Mensaje
+                                        </label>
+                                    </div>
+                                    <div class="form-group espacio-texto">
+                                        <textarea class="form-control" placeholder="Ingresa un mensaje" rows="3"></textarea>
+                                        <p class="contador">0/60</p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row justify-content-around btns-linea">
+                                <div class="col-4">
+                                    <a href="#" class="btn-trans">Cancelar</a>
+                                </div>
+                                <div class=" col-4 ">
+                                    <a href="# " class="btn-trans1">Aceptar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js "></script>
+    <script src="assets/js/main.js "></script>
+</body>
+
+</html>
