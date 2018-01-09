@@ -6,6 +6,10 @@ h3,
 h4 {
   font-family: "Open Sans", sans-serif; }
 
+a {
+  color: #7a7a7a;
+  text-decoration: none; }
+
 .bg-light {
   background-color: transparent !important; }
 
@@ -42,16 +46,33 @@ nav .datos-user {
 nav .datos-name {
   margin: 0;
   font-size: 16px; }
-nav .datos-acceso {
-  color: #7a7a7a; }
 
 #navbarInferior {
-  justify-content: space-around; }
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3); }
 
-.nav-pills .nav-link {
-  color: #7a7a7a; }
 .nav-pills .nav-link:hover {
   color: #73c679;
-  border-bottom: 2px solid #73c679; }
+  border-bottom: 3px solid #73c679; }
+
+.nav-vertical li {
+  list-style: none; }
+.nav-vertical li :hover {
+  color: #4698d8; }
+.nav-vertical .vertical {
+  border-bottom: 1px solid #f4f6f7; }
+.nav-vertical .mi-cuenta {
+  padding-left: 16px;
+  text-decoration: none; }
+.nav-vertical #primero {
+  padding-right: 16px; }
+.nav-vertical .fa-chevron-right {
+  color: #4698d8; }
+
+.derecha {
+  background-color: #f4f6f7;
+  width: 100%; }
+  .derecha h4 {
+    color: #4698d8;
+    padding: 20px; }
 
 /*# sourceMappingURL=style.css.map */

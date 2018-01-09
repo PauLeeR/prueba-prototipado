@@ -5,6 +5,11 @@ h4 {
     font-family: $font;
 }
 
+a {
+    color: $gris-oscuro;
+    text-decoration: none;
+}
+
 .bg-light {
     background-color: transparent !important;
 }
@@ -52,22 +57,48 @@ nav {
         margin: 0;
         font-size: 16px;
     }
-    .datos-acceso {
-        color: $gris-oscuro;
-    }
 }
 
 #navbarInferior {
-    justify-content: space-around;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 .nav-pills {
-    .nav-link {
-        color: $gris-oscuro;
-    }
-
     .nav-link:hover {
         color: $verde-oscuro;
-        border-bottom: 2px solid $verde-oscuro;
+        border-bottom: 3px solid $verde-oscuro;
+    }
+}
+
+
+.nav-vertical {
+    li {
+        list-style: none;
+    }
+    li :hover {
+        color: $azul;
+    }
+    .vertical {
+        border-bottom: 1px solid $gris-fondo;
+    }
+    .mi-cuenta {
+        padding-left: 16px;
+        text-decoration: none;
+    }
+    #primero {
+        padding-right: 16px;
+    }
+
+    .fa-chevron-right {
+        color: $azul;
+    }
+}
+
+.derecha {
+    background-color: $gris-fondo;
+    width: 100%;
+    h4 {
+        color: $azul;
+        padding: 20px;
     }
 }

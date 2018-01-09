@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>web bci</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <script src="https://use.fontawesome.com/b98428e78e.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -60,8 +60,7 @@
             </ul>
         </div>
     </nav>
-    <hr>
-    <nav class="nav nav-pills nav-justified">
+    <nav class="nav nav-pills nav-justified" id="navbarInferior">
         <a class="nav-item nav-link" href="#">Mi Banco</a>
         <a class="nav-item nav-link" href="#">Pago y Servicios</a>
         <a class="nav-item nav-link" href="#">Transferencias</a>
@@ -72,9 +71,89 @@
     </nav>
     <!-- fin navegador -->
     <section>
+        <div class="row">
+            <div class="col-md-3">
+                <ul class="nav flex-column nav-vertical">
+                    <li class="nav-item vertical">
+                        <a class="nav-link" href="#" id="exampleAccordion" data-children=".item">
+                        <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion1" role="button" aria-expanded="true" aria-controls="exampleAccordion1" class="mi-cuenta">Mi Cuenta <i class="fa fa-chevron-right pull-right" id="primero" aria-hidden="true"></i>
+</a>
+                        <div id="exampleAccordion1" class="collapse show" role="tabpanel">
+                            <ul class="mb-3">
+                                <li class="nav-item"><a class="nav-link" href="#">Saldo y últimos movimientos</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Cartola Actual</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Cartola Historica</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Cheques</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Depósitos</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Certificados</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Mi calendario</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Mis contratos</a></li>
+                            </ul>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="nav-item vertical">
+                        <a class="nav-link" href="#">Linea de Sobregiro <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i>
+</a>
+                    </li>
+                    <li class="nav-item vertical">
+                        <a class="nav-link" href="#">Otras cuentas <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i>
+</a>
+                    </li>
+                    <li class="nav-item vertical">
+                        <a class="nav-link" href="#">Mis Datos Personales <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i>
+</a>
+                    </li>
+                    <li class="nav-item vertical">
+                        <a class="nav-link" href="#">SMS Bci <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i>
+</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-9 derecha">
+                <h4>Saldo y últimos movimientos</h4>
+                <div class="row">
+                    <div class="col-6 col-md-4">
+                        <h5>Pablo Andres Monares Vallejos</h5>
+                        <p>RUT: 00.000.000-4</p>
+                        <p>Saldo Disponible al: <span>23-062017</span></p>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Cuenta corriente Nº27149528
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Regular link</a>
+                                <a class="dropdown-item disabled" href="#">Disabled link</a>
+                                <a class="dropdown-item" href="#">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <p>Cuenta corriente Nº27149528</p>
+                        <p>Saldo Disponible</p>
+                        <h3>$198.300</h3></div>
+                    <div class="col-6 col-md-4">
+                        <p>Saldo contable <span>$198.300</span></p>
+                        <p>Rentenciones <span>$9.990</span></p>
+                        <p>Sobregiro Disponible <span>$9.990</span></p>
+                        <p>Sobregiro Utilizado <span>$9.990</span></p>
+                        <p>Linea de Emergencia <span>$9.990</span></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i> Transferir
+                    </div>
+                    <div class="col"><i class="fa fa-file-o fa-2x" aria-hidden="true"></i> Pagar cuenta</div>
+                    <div class="col">Solicitar aumento</div>
+                    <div class="col">Pagar sobregiro</div>
+                    <div class="col">Personalizar</div>
+                </div>
+            </div>
+        </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 
