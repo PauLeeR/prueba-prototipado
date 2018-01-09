@@ -48,4 +48,10 @@ nav .datos-acceso {
 #navbarInferior {
   justify-content: space-around; }
 
+.nav-pills .nav-link {
+  color: #7a7a7a; }
+.nav-pills .nav-link:hover {
+  color: #73c679;
+  border-bottom: 2px solid #73c679; }
+
 /*# sourceMappingURL=style.css.map */

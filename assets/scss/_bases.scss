@@ -60,3 +60,14 @@ nav {
 #navbarInferior {
     justify-content: space-around;
 }
+
+.nav-pills {
+    .nav-link {
+        color: $gris-oscuro;
+    }
+
+    .nav-link:hover {
+        color: $verde-oscuro;
+        border-bottom: 2px solid $verde-oscuro;
+    }
+}
