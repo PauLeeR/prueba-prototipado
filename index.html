@@ -111,42 +111,103 @@
                 </ul>
             </div>
             <div class="col-md-9 derecha">
-                <h4>Saldo y últimos movimientos</h4>
-                <div class="row">
-                    <div class="col-6 col-md-4">
-                        <h5>Pablo Andres Monares Vallejos</h5>
-                        <p>RUT: 00.000.000-4</p>
-                        <p>Saldo Disponible al: <span>23-062017</span></p>
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Cuenta corriente Nº27149528
-                            </button>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Regular link</a>
-                                <a class="dropdown-item disabled" href="#">Disabled link</a>
-                                <a class="dropdown-item" href="#">Another link</a>
+                <div class="container-fluid">
+                    <h4>Saldo y últimos movimientos</h4>
+                    <div class="row first">
+                        <div class="col-6 col-md-4">
+                            <h5>Pablo Andres Monares Vallejos</h5>
+                            <p class="rut">RUT: 00.000.000-4</p>
+                            <p>Saldo Disponible al: <span class="fecha">23-062017</span></p>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Cuenta corriente Nº27149528
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Regular link</a>
+                                    <a class="dropdown-item disabled" href="#">Disabled link</a>
+                                    <a class="dropdown-item" href="#">Another link</a>
+                                </div>
                             </div>
                         </div>
+                        <div class="col-6 col-md-4 cuenta">
+                            <p class="cuenta-text">Cuenta corriente Nº27149528</p>
+                            <p class="cuenta-text">Saldo Disponible</p>
+                            <p class="saldo">$198.300</p>
+                        </div>
+                        <div class="col-6 col-md-4 detalle">
+                            <p>Saldo contable <span class="precios pull-right">$198.300</span></p>
+                            <p>Rentenciones <span class="precios pull-right">$9.990</span></p>
+                            <p>Sobregiro Disponible <span class="precios pull-right">$9.990</span></p>
+                            <p>Sobregiro Utilizado <span class="precios pull-right">$9.990</span></p>
+                            <p>Linea de Emergencia <span class="precios pull-right">$9.990</span></p>
+                        </div>
                     </div>
-                    <div class="col-6 col-md-4">
-                        <p>Cuenta corriente Nº27149528</p>
-                        <p>Saldo Disponible</p>
-                        <h3>$198.300</h3></div>
-                    <div class="col-6 col-md-4">
-                        <p>Saldo contable <span>$198.300</span></p>
-                        <p>Rentenciones <span>$9.990</span></p>
-                        <p>Sobregiro Disponible <span>$9.990</span></p>
-                        <p>Sobregiro Utilizado <span>$9.990</span></p>
-                        <p>Linea de Emergencia <span>$9.990</span></p>
+                    <div class="row accciones-cuenta">
+                        <div class="col"><i class="fa fa-exchange" aria-hidden="true"></i> Transferir
+                        </div>
+                        <div class="col"><i class="fa fa-file-o" aria-hidden="true"></i> Pagar cuenta</div>
+                        <div class="col"><i class="fa fa-usd" aria-hidden="true"></i> Solicitar aumento</div>
+                        <div class="col"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Pagar sobregiro</div>
+                        <div class="col personalizar"><i class="fa fa-cogs" aria-hidden="true"></i> Personalizar
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i> Transferir
+                    <div class="movimientos">
+                        <div class="row linea">
+                            <div class="col-sm-8">
+                                <h5>Últimos movimientos</h5></div>
+                            <div class="col-sm-2"><i class="fa fa-print" aria-hidden="true"></i> Imprimir</div>
+                            <div class="col-sm-2"><i class="fa fa-file-text" aria-hidden="true"></i> Descargar Excel</div>
+                        </div>
+                        <div class="row">
+                            <div class="col parrafo">
+                                <p>En esta cartola encontrará los últimos 18 movimientos de su cuenta, para una información más detallada ingrese a su <a href="#">Cartola Actual</a> e <a href="#">Histórica</a></p>
+                            </div>
+                        </div>
+                        <div class="row barra">
+                            <div class="col">
+                                Fecha <i class="fa fa-angle-down pull-right" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-4">
+                                Descripción <i class="fa fa-angle-down pull-right" aria-hidden="true"></i>
+                            </div>
+                            <div class="col">
+                                Serie <i class="fa fa-angle-down pull-right" aria-hidden="true"></i>
+                            </div>
+                            <div class="col">
+                                Monto <i class="fa fa-angle-down pull-right" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">22-06-2017</div>
+                            <div class="col-4">Compra Tarjeta Débito</div>
+                            <div class="col">0000000000123</div>
+                            <div class="col"><span>-$3.990</span></div>
+                        </div>
+                        <div class="row">
+                            <div class="col">22-06-2017</div>
+                            <div class="col-4">Compra Tarjeta Débito</div>
+                            <div class="col">0000000000123</div>
+                            <div class="col"><span>-$3.990</span></div>
+                        </div>
+                        <div class="row">
+                            <div class="col">22-06-2017</div>
+                            <div class="col-4">Compra Tarjeta Débito</div>
+                            <div class="col">0000000000123</div>
+                            <div class="col"><span>-$3.990</span></div>
+                        </div>
+                        <div class="row">
+                            <div class="col">22-06-2017</div>
+                            <div class="col-4">Compra Tarjeta Débito</div>
+                            <div class="col">0000000000123</div>
+                            <div class="col"><span>-$3.990</span></div>
+                        </div>
+                        <div class="row">
+                            <div class="col">22-06-2017</div>
+                            <div class="col-4">Compra Tarjeta Débito</div>
+                            <div class="col">0000000000123</div>
+                            <div class="col"><span>-$3.990</span></div>
+                        </div>
                     </div>
-                    <div class="col"><i class="fa fa-file-o fa-2x" aria-hidden="true"></i> Pagar cuenta</div>
-                    <div class="col">Solicitar aumento</div>
-                    <div class="col">Pagar sobregiro</div>
-                    <div class="col">Personalizar</div>
                 </div>
             </div>
         </div>

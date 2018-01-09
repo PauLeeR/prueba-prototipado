@@ -61,6 +61,7 @@ nav {
 
 #navbarInferior {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
 }
 
 .nav-pills {
@@ -97,8 +98,83 @@ nav {
 .derecha {
     background-color: $gris-fondo;
     width: 100%;
-    h4 {
+    h4,
+    {
+        padding: 2% 0;
         color: $azul;
-        padding: 20px;
+    }
+    .first {
+        background-color: #fff;
+        padding: 2%;
+        p {
+            font-size: 14px;
+            color: #333;
+        }
+        h5 {
+            color: $verde;
+        }
+        .rut {
+            font-size: 12px;
+        }
+
+        .fecha {
+            color: #BFBFBF;
+            padding-bottom: 0;
+        }
+        .btn-secondary {
+            color: #BFBFBF;
+            background-color: transparent;
+        }
+        .cuenta {
+            text-align: center;
+            padding-top: 5%;
+            border-left: 1px solid #BFBFBF;
+            border-right: 1px solid #BFBFBF;
+
+            .saldo {
+                font-size: 40px;
+                color: $verde-oscuro;
+            }
+            .cuenta-text {
+                margin: 1%;
+            }
+        }
+        .detalle {
+            font-size: 12px;
+            .precios {
+                color: $verde-oscuro;
+            }
+        }
+    }
+    .accciones-cuenta {
+        background-color: #fff;
+        margin-top: 2%;
+        padding: 2%;
+        color: $azul-barra;
+        .personalizar {
+            color: $rojo;
+        }
+    }
+
+    .movimientos {
+        background-color: #fff;
+        margin-top: 2%;
+        margin-left: -1.5%;
+        margin-right: -1.5%;
+        padding: 2%;
+        h5 {
+            color: $azul;
+        }
+        .linea {
+            padding: 2%;
+            border-bottom: 1px solid #BFBFBF;
+        }
+        .parrafo {
+            padding: 2%;
+            a {
+                color: $azul;
+                text-decoration: none;
+            }
+        }
     }
 }

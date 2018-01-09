@@ -48,11 +48,12 @@ nav .datos-name {
   font-size: 16px; }
 
 #navbarInferior {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  z-index: 9999; }
 
 .nav-pills .nav-link:hover {
-  color: #73c679;
-  border-bottom: 3px solid #73c679; }
+  color: #2aa82c;
+  border-bottom: 3px solid #2aa82c; }
 
 .nav-vertical li {
   list-style: none; }
@@ -72,7 +73,60 @@ nav .datos-name {
   background-color: #f4f6f7;
   width: 100%; }
   .derecha h4 {
-    color: #4698d8;
-    padding: 20px; }
+    padding: 2% 0;
+    color: #4698d8; }
+  .derecha .first {
+    background-color: #fff;
+    padding: 2%; }
+    .derecha .first p {
+      font-size: 14px;
+      color: #333; }
+    .derecha .first h5 {
+      color: #92d397; }
+    .derecha .first .rut {
+      font-size: 12px; }
+    .derecha .first .fecha {
+      color: #BFBFBF;
+      padding-bottom: 0; }
+    .derecha .first .btn-secondary {
+      color: #BFBFBF;
+      background-color: transparent; }
+    .derecha .first .cuenta {
+      text-align: center;
+      padding-top: 5%;
+      border-left: 1px solid #BFBFBF;
+      border-right: 1px solid #BFBFBF; }
+      .derecha .first .cuenta .saldo {
+        font-size: 40px;
+        color: #2aa82c; }
+      .derecha .first .cuenta .cuenta-text {
+        margin: 1%; }
+    .derecha .first .detalle {
+      font-size: 12px; }
+      .derecha .first .detalle .precios {
+        color: #2aa82c; }
+  .derecha .accciones-cuenta {
+    background-color: #fff;
+    margin-top: 2%;
+    padding: 2%;
+    color: #007ace; }
+    .derecha .accciones-cuenta .personalizar {
+      color: #f3504b; }
+  .derecha .movimientos {
+    background-color: #fff;
+    margin-top: 2%;
+    margin-left: -1.5%;
+    margin-right: -1.5%;
+    padding: 2%; }
+    .derecha .movimientos h5 {
+      color: #4698d8; }
+    .derecha .movimientos .linea {
+      padding: 2%;
+      border-bottom: 1px solid #BFBFBF; }
+    .derecha .movimientos .parrafo {
+      padding: 2%; }
+      .derecha .movimientos .parrafo a {
+        color: #4698d8;
+        text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
