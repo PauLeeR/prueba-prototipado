@@ -17,6 +17,9 @@ a {
   color: #BFBFBF;
   background-color: transparent; }
 
+.navbar-brand {
+  margin: 0; }
+
 #navbarSuperior {
   justify-content: flex-end;
   padding: 0;
@@ -40,13 +43,16 @@ nav .logo-bci {
   padding: 0;
   margin: 0; }
 nav .img-user {
-  width: 25%;
+  width: 20%;
   float: right;
   padding: 0; }
 nav .datos-user {
   font-size: 12px;
   color: #4698d8;
   padding: 0; }
+nav .datos-user-mini {
+  padding: 0 16px;
+  color: #4698d8; }
 nav .datos-name {
   margin: 0;
   font-size: 16px; }
@@ -79,6 +85,16 @@ nav .datos-name {
   .derecha h4 {
     padding: 2% 0;
     color: #4698d8; }
+  .derecha .titulo-mobile {
+    font-size: 20px;
+    background-color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #BFBFBF; }
+  .derecha .d-block {
+    padding: 5% 20%;
+    margin: 0; }
+  .derecha .fa-angle-left {
+    color: #2aa82c; }
   .derecha .first {
     background-color: #fff;
     padding: 2%; }
@@ -100,6 +116,10 @@ nav .datos-name {
       .derecha .first .cuenta .saldo {
         font-size: 40px;
         color: #2aa82c; }
+      .derecha .first .cuenta .dato {
+        margin: 0; }
+      .derecha .first .cuenta .numero-verde {
+        color: #2aa82c; }
       .derecha .first .cuenta .cuenta-text {
         margin: 1%; }
     .derecha .first .detalle {
@@ -113,12 +133,16 @@ nav .datos-name {
     color: #007ace; }
     .derecha .accciones-cuenta .personalizar {
       color: #f3504b; }
+    .derecha .accciones-cuenta a {
+      color: #007ace; }
   .derecha .movimientos {
     background-color: #fff;
     margin-top: 2%;
     margin-left: -1.5%;
     margin-right: -1.5%;
     padding: 2%; }
+    .derecha .movimientos .fa-undo {
+      color: #4698d8; }
     .derecha .movimientos h5 {
       color: #4698d8; }
     .derecha .movimientos .linea {
@@ -182,5 +206,13 @@ nav .datos-name {
       padding: 2%;
       text-decoration: none;
       padding: 10% 40%; }
+
+.barra-mobile .btn-activo {
+  color: #4698d8;
+  border-top: 1px solid #4698d8;
+  padding: 10%;
+  text-decoration: none; }
+.barra-mobile .banco {
+  font-size: 10px; }
 
 /*# sourceMappingURL=style.css.map */
