@@ -72,6 +72,7 @@ nav {
     }
 }
 
+
 #navbarInferior {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     z-index: 9999;
@@ -89,16 +90,20 @@ nav {
     li {
         list-style: none;
     }
+
     li :hover {
         color: $azul;
     }
+
     .vertical {
         border-bottom: 1px solid $gris-fondo;
     }
+
     .mi-cuenta {
         padding-left: 16px;
         text-decoration: none;
     }
+
     #primero {
         padding-right: 16px;
     }
@@ -116,19 +121,23 @@ nav {
         padding: 2% 0;
         color: $azul;
     }
+
     .titulo-mobile {
         font-size: 20px;
         background-color: #fff;
         text-decoration: none;
         border-bottom: 1px solid #BFBFBF;
     }
+
     .d-block {
         padding: 5% 20%;
         margin: 0;
     }
+
     .fa-angle-left {
         color: $verde-oscuro;
     }
+
     .first {
         background-color: #fff;
         padding: 2%;
@@ -175,6 +184,7 @@ nav {
             }
         }
     }
+
     .accciones-cuenta {
         background-color: #fff;
         margin-top: 2%;
@@ -238,9 +248,11 @@ nav {
     .text-trans {
         color: $azul;
     }
+
     .origen-linea {
         padding-top: 2%;
     }
+
     .saldo {
         background-color: #ececec;
         padding: 4%;
@@ -250,12 +262,14 @@ nav {
             font-size: 24px;
         }
     }
+
     .destinatario-linea {
         padding-top: 2%;
         .agregar {
             color: $azul;
         }
     }
+
     .monto-linea {
         padding-top: 3%;
         .form-check {
@@ -268,6 +282,7 @@ nav {
             font-size: 12px;
         }
     }
+
     .btns-linea {
         margin-bottom: 2%;
         .btn-trans1 {
@@ -293,6 +308,7 @@ nav {
         padding: 10%;
         text-decoration: none;
     }
+
     .banco {
         font-size: 10px;
     }
