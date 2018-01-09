@@ -1,6 +1,6 @@
-#Prueba-Prototipado
-Realización de prueba técnica para vacante en Everis, desarrollador UI/ prototipador. 
+# Prueba-Prototipado
 
+Realización de prueba técnica para vacante en Everis, desarrollador UI/ prototipador. 
 
 Utilización de frameworks bootstrap para columnas responsivas y preprocesador sass. 
 
